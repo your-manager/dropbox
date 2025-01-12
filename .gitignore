@@ -1,33 +1,53 @@
-HELP.md
+# Maven / Gradle dependencies
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+*.jar
+*.war
+*.ear
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IntelliJ IDEA project files
 *.iml
-*.ipr
+.idea/
+out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Eclipse project files
+.classpath
+.project
+.settings/
 
-### VS Code ###
+# VS Code project files
 .vscode/
+
+# Logs
+logs/
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Application-specific
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# H2 database files
+*.h2.db
+*.mv.db
+*.trace.db
+
+# Node / frontend files (if applicable)
+node_modules/
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Other metadata
+*.class
+*.~*
+
+# Ignore files for testing
+test-output/
