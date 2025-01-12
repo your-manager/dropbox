@@ -1,0 +1,5 @@
+com/typeface/dropboxn/repositories/FileRepository.class
+com/typeface/dropboxn/controller/DropboxController.class
+com/typeface/dropboxn/entities/FileMetadata.class
+com/typeface/dropboxn/DropboxnApplication.class
+com/typeface/dropboxn/service/DropboxService.class
