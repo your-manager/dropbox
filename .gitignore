@@ -4,6 +4,8 @@ target/
 *.war
 *.ear
 
+uploads/
+
 # IntelliJ IDEA project files
 *.iml
 .idea/
