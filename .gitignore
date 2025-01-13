@@ -4,8 +4,6 @@ target/
 *.war
 *.ear
 
-uploads/
-
 # IntelliJ IDEA project files
 *.iml
 .idea/
@@ -28,10 +26,10 @@ logs/
 Thumbs.db
 
 # Application-specific
-#application.properties
-#application.yml
-#application-*.properties
-#application-*.yml
+application.properties
+application.yml
+application-*.properties
+application-*.yml
 
 # H2 database files
 *.h2.db
