@@ -26,10 +26,10 @@ logs/
 Thumbs.db
 
 # Application-specific
-application.properties
-application.yml
-application-*.properties
-application-*.yml
+# application.properties
+# application.yml
+# application-*.properties
+# application-*.yml
 
 # H2 database files
 *.h2.db
